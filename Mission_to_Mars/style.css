@@ -1,0 +1,56 @@
+.container-fluid {
+    background-color: crimson;
+    margin: 10px;
+}
+
+#mars-news {
+    padding: 20px;
+    margin: 10px;
+}
+
+#featured_image {
+    width: 700px;
+    height: 650;
+}
+
+#mars_weather {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#valles_marineris {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#cerberus {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#schiaparelli {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#syrtis-major {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#facts-table {
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    margin: 5px;
+}
