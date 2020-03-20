@@ -7,18 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Visit Mars ...</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../static/style.css">
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="jumbotron text-center">
       <h1>Mission to Mars!</h1>
       <p></p>
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get the Latest Mars Information</a></p>
     </div>
     <div class = 'row' id = mars_news>
-      <h3>Latest Mars News</h3>
+      <h3>Latest Mars News:</h3>
       <br>
       <h5>{{ mars.news_title }}</h5>
       <br>
@@ -33,7 +33,7 @@
       <div class = 'col-md-4'>
         <div class="card">
           <div class="card-body" id = 'mars_weather'>
-            <h5 class="card-title">Current Weather on Mars</h5>
+            <h5 class="card-title">Current Weather on Mars:</h5>
             <p class="card-text">{{ mars.mars_weather }}</p>
           </div>
         <hr>
@@ -92,15 +92,15 @@
     <div class = 'row'>
       <div class = 'col-md-6'>
         <div class="card">
-          <img src="{{ mars.valles_marineris_img_url }}" class="card-img-top" alt="Valles Marineris">
-          <div class="card-body" id = 'valles_marineris'>
+          <img src="{{ mars.valles_marineris_img_url }}" id = 'valles_marineris' class="card-img-top" alt="Valles Marineris">
+          <div class="card-body">
             <h5 class="card-title">{{ mars.valles_marineris_title }}</h5>
           </div>
         </div>
       <div class = 'col-md-6'>
         <div class="card">
-          <img src="{{ mars.cerberus_img_url }}" class="card-img-top" alt="Cerberus">
-          <div class="card-body" id = 'cerberus'>
+          <img src="{{ mars.cerberus_img_url }}" id = 'cerberus' class="card-img-top" alt="Cerberus">
+          <div class="card-body">
             <h5 class="card-title">{{ mars.cerberus_title }}</h5>
           </div>
         </div>
@@ -109,15 +109,15 @@
     <div class = 'row'>
       <div class = 'col-md-6'>
         <div class="card">
-          <img src="{{ mars.schiaparelli_img_url }}" class="card-img-top" alt="Schiaparelli">
-          <div class="card-body" id = 'schiaparelli'>
+          <img src="{{ mars.schiaparelli_img_url }}" id = 'schiaparelli' class="card-img-top" alt="Schiaparelli">
+          <div class="card-body">
             <h5 class="card-title">{{ mars.schiaparelli_title }}</h5>
           </div>
         </div>
       <div class = 'col-md-6'>
         <div class="card">
-          <img src="{{ mars.syrtis_major_img_url }}" class="card-img-top" alt="Syrtis Major">
-          <div class="card-body" id = 'syrtis_major'>
+          <img src="{{ mars.syrtis_major_img_url }}" class="card-img-top" id = 'syrtis_major' alt="Syrtis Major">
+          <div class="card-body">
             <h5 class="card-title">{{ mars.syrtis_major_title }}</h5>
           </div>
         </div>
